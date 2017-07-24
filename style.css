@@ -1,0 +1,296 @@
+body {
+  background: url(images/fleur-de-lis_stylized.png), linear-gradient(green, purple, gold);
+}
+
+.main-header {
+  background: #2C2A2C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 148px;
+  width: 100%;
+}
+
+.header-container1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-button {
+  background: none;
+  border: none;
+  color: gold;
+  cursor: pointer;
+  font-size: 15px;
+  height: 40px;
+  margin: 8px 8px 0 0;
+  width: auto;
+}
+
+.button-image {
+  height: 20px;
+  padding-right: 3px;
+  width: auto;
+}
+
+.header-title {
+  color: gold;
+  align-self: flex-end;
+  font-size: 55px;
+  padding: 0 10px 10px 0;
+  margin: 0;
+}
+
+.header-list {
+  padding: 0;
+  margin: 0 0 0 7px;;
+}
+
+.header-anchors {
+  font-size: 13px;
+  margin: 0;
+}
+
+a img {
+  height: 20px;
+  margin-right: 8px;
+  width: auto;
+}
+
+ul a {
+  color: gold;
+  margin: 0 20px
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-upper {
+  height: 45%;
+}
+
+.card-lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 10px;
+  width: auto;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+time {
+  display: inline-block;
+  font-size: 11px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.container-top {
+  font-size: 38px;
+  color: gold;
+  margin: 30px 0 30px 10px;
+}
+
+.container-bottom {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card {
+  height: 575px;
+  overflow-wrap: break-word;
+  width: 24%;
+  margin-bottom: 15px;
+}
+
+.thumb-up {
+  height: 25px;
+  width: auto;
+  margin-right: 5px
+}
+
+.thumb-down {
+  height: 25px;
+  width: auto;
+}
+
+.card1 {
+  background: linear-gradient(#49de6e ,#0163d5 );
+  }
+
+.card2 {
+  background: linear-gradient(#9e4f16 ,#5e6777);
+}
+
+.card3 {
+  background: linear-gradient(#0d5058 ,#8b9ebf);
+}
+
+.card4 {
+  background: linear-gradient(#8f0400 ,#d3a047);
+}
+
+.card5 {
+  background: linear-gradient(#5d39e0, #9e89e0);
+}
+
+.card6 {
+  background: linear-gradient(#928e9c, #713939);
+}
+
+.card7 {
+  background: linear-gradient(#f2da4a ,#c05429);
+}
+
+.card8 {
+  background: linear-gradient(#50578c ,#b87870);
+}
+
+
+.url-container {
+  font-size: 13px;
+  height: 55px;
+  margin: 15px 5px 15px 0;
+  overflow-x: : scroll;
+  padding: 7px 0 0 0;
+}
+
+.description {
+  font-size: 12px;
+  margin: 20px 0 0 0;
+}
+
+.instruction {
+  font-size: .96em;
+  margin-top: 5px;
+}
+
+.attachments {
+  font-size: 11px;
+  margin-bottom: 30px;
+
+}
+
+.rating {
+  font-size: 30px;
+  margin-bottom: 5px;
+
+}
+
+@media (max-width: 1400px) {
+  .instruction {
+    font-size: .90em;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    height: 650px;
+    width: 65%;
+  }
+
+  .card-upper {
+    height: 50%;
+  }
+
+  .instruction {
+    font-size: .80em;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  /*.container-bottom {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: space-around;
+  }*/
+}
+
+@media (max-width: 700px) {
+  .header-title {
+    font-size: 40px;
+}
+
+  a img {
+    height: 12px;
+    margin: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 475px) {
+  .main-header {
+    height: 175px;
+  }
+
+  .card {
+    height: 550px;
+    width: 75%;
+  }
+
+  .header-container1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .header-container2 {
+    justify-content: space-between;
+  }
+
+  .header-anchors {
+    font-size: 10px;
+  }
+
+  .container-top {
+    font-size: 30px;
+  }
+
+  .url-container {
+    padding: 5px;
+  }
+}
+
+@media tv and (scan: progressive) {
+  /*at 760 header needs adjusting*/
+    .card {
+      height: 650px;
+      width: 65%;
+    }
+
+    .card-upper {
+      height: 50%;
+    }
+
+    .instruction {
+      font-size: .80em;
+    }
+
+    .container {
+      justify-content: center;
+    }
+
+    .container-bottom {
+      justify-content: center;
+    }
+  }
+
+}
