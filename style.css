@@ -267,10 +267,13 @@ time {
   .url-container {
     padding: 5px;
   }
+
+  .attachments {
+    margin-bottom: 3px;
+  }
 }
 
 @media tv and (scan: progressive) {
-  /*at 760 header needs adjusting*/
     .card {
       height: 650px;
       width: 65%;
