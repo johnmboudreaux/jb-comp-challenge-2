@@ -237,7 +237,7 @@ time {
   }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 500px) {
   .main-header {
     height: 175px;
   }
